@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --plano-fundo: #111;
+    --cor-font-padrao: #fff;
+    --font-padrao: 'Roboto', sans-serif;   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--plano-fundo);
+    color: var(--cor-font-padrao);
+    margin: 0;
+    font-family: var(--font-padrao);
+}
+
+.loading {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

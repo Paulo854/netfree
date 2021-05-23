@@ -1,0 +1,10 @@
+## Redirecionar em caso de erros ##
+##ErrorDocument 400 /apache.php?erro=400##
+##ErrorDocument 403 /apache.php?erro=403##
+ErrorDocument 404 /not-fund.php?erro=404
+##ErrorDocument 500 /apache.php?erro=500##
+##ErrorDocument 501 /apache.php?erro=501##
+##ErrorDocument 502 /apache.php?erro=502##
+##ErrorDocument 503 /apache.php?erro=503##
+##ErrorDocument 504 /apache.php?erro=504##
+##ErrorDocument 505 /apache.php?erro=505##
